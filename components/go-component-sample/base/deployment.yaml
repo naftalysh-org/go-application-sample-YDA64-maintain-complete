@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: go-component-sample
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/nafta_org/test2/go-application-sample/go-component-sample@sha256:83c8af40273034f9afea0f891de1b5347b30cd90d19ef83f1f57998da4a84289
         name: my-go
         ports:
         - containerPort: 8081
